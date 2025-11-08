@@ -42,8 +42,8 @@ REM BTFM
 mkdir output\Drivers\Bluetooth\BTFMUART
 
 echo Copying Blueooth Firmware Files...
-xcopy /qcheriky /-i extracted\BTFM\crbtfw21.tlv output\Drivers\Bluetooth\BTFMUART
-xcopy /qcheriky /-i extracted\BTFM\crnv21.bin output\Drivers\Bluetooth\BTFMUART
+xcopy /qcheriky /-i extracted\BTFM\image\crbtfw21.tlv output\Drivers\Bluetooth\BTFMUART
+xcopy /qcheriky /-i extracted\BTFM\image\crnv21.bin output\Drivers\Bluetooth\BTFMUART
 
 REM ICP
 mkdir output\Drivers\Camera\ISP
